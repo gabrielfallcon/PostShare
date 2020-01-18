@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+*{
+  font-family: 'Alata', sans-serif;
+}
+body {
+  background: url('../../assets//img/banner.png') no-repeat;
+}
+
+.corpo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pai {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #fff;
+  color: #f66;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.public{
+  width: 80%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+small{
+  color: #f66;
+  margin-bottom: 2px;
+}
+
+.public textarea {
+  padding: 20px;
+  width: 70%;
+  border-radius: 10px ;
+  background-color: transparent !important;
+  color: #f66;
+  border: 1px solid #f66
+}
+
+.sharer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
