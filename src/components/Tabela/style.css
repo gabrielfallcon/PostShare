@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Frijole&display=swap');
 
 *{
   font-family: 'Alata', sans-serif;
@@ -13,13 +14,18 @@ body {
   justify-content: center;
 }
 
+.textLogo {
+  font-size: 40px;
+  font-family: 'Frijole', cursive;
+}
+
 .pai {
   width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 5px;
   background-color: #fff;
   color: #f66;
   border-bottom-left-radius: 10%;
@@ -54,4 +60,25 @@ small{
   display: flex;
   justify-content: center;
   padding: 15px;
+}
+
+/* --------------------- */
+
+@media (max-width: 575.98px) { 
+  .textLogo {
+    margin-top: -10%;
+  }
+  .pai {
+    width: 100%;
+    height: 90vh;
+    padding: 0;
+  }
+  .public textarea {
+    width: 95%;
+  }
+  .sharer{
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: 2px solid #f66;
+  }
 }
