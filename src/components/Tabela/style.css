@@ -28,8 +28,8 @@ body {
   padding: 5px;
   background-color: #fff;
   color: #f66;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
 }
 
 .public{
