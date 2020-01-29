@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -6,15 +6,13 @@ import { faWhatsapp, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-
 import { Container, Content, Title, Coment, Sharer } from '../../styles'
 import './style.css'
 
-export default function Tabela() {
+const Tabela = () => {  
     
     const coment = useSelector(state => state.tabela.coment)
     const dispatch = useDispatch()
-
     const setComent = (e) =>{
         dispatch({ type: 'SET_COMENT', payload: e.target.value })
-    }
-    
+    }  
     return (
         <>
             <Container>
@@ -39,8 +37,8 @@ export default function Tabela() {
             </Container>
         </>
     )
-
 }
+export default Tabela
 
 
 
